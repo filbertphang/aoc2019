@@ -1,5 +1,5 @@
 import math
-_input = open("input.txt")
+_input = open("day_one/input.txt")
 part = 2
 
 # Part 1
