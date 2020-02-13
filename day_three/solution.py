@@ -1,5 +1,5 @@
 # import pandas as pd
-import numpy as np 
+import numpy as np  
 import copy
 
 _input = open("day_three/input.txt")
@@ -7,8 +7,7 @@ _input = [x for x in _input.read().splitlines()]
 wire1, wire2 = _input[0].split(','), _input[1].split(',')
 
 # position = [x, y]
-# segment = [ [x_init, y_init], [x_final, y_final], type ]
-# type = horizontal or vertical segment
+# segment = [ [x_init, y_init], [x_final, y_final] ]
 def generate_segment(pos, path):
     new_pos = copy.deepcopy(pos)
 
